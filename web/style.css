@@ -5,3 +5,5 @@
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{transition:none!important;animation:none!important}}
 
 h1{overflow-wrap:anywhere}.button{overflow-wrap:anywhere;max-width:100%}.preview>video{max-width:100%;max-height:380px}
+
+@media(max-width:420px){.tool-card{padding:16px}.tool-card h3{font-size:15px;letter-spacing:-.5px}}

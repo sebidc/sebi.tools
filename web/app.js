@@ -1,7 +1,7 @@
 'use strict';
 const icons={download:'M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5',qr:'M3 3h6v6H3zM15 3h6v6h-6zM3 15h6v6H3zM15 15h3v3h-3zM21 15v6h-6',image:'M3 3h18v18H3zM3 16l5-5 4 4 3-3 6 6M15 7h.01',media:'M4 4h16v16H4zM10 8l6 4-6 4z',document:'M5 3h9l5 5v13H5zM14 3v5h5M8 12h8M8 16h8',crop:'M6 2v16h16M2 6h16v16',watermark:'M12 3l8 8a8 8 0 1 1-16 0z',palette:'M12 3a9 9 0 1 0 0 18c2 0 3-2 1-3-2-2 0-4 2-4h3c6 0 3-11-6-11M7 8h.01M12 6h.01M17 8h.01M6 13h.01',contrast:'M12 3a9 9 0 1 0 0 18V3zM12 3a9 9 0 0 1 0 18',pdf:'M5 3h14v18H5zM8 8h8M8 12h8M8 16h5',audio:'M10 18V5l10-2v13M10 7l10-2M10 18a3 3 0 1 1-3-3h3M20 16a3 3 0 1 1-3-3h3',subtitle:'M3 5h18v14H3zM6 10h4M6 14h4M14 10h4M14 14h4',clip:'M4 4h16v16H4zM8 2v4M16 2v4M8 18v4M16 18v4',home:'M3 11l9-8 9 8M5 10v11h14V10M9 21v-7h6v7'};
 const tools=[
-{id:'downloader',name:'Direct-file downloader',group:'Everyday',icon:'download',copy:'Save a file from its direct link.',run:downloader},
+{id:'downloader',name:'File downloader',group:'Everyday',icon:'download',copy:'Save a file from its direct link.',run:downloader},
 {id:'qr',name:'QR generator',group:'Everyday',icon:'qr',copy:'A code for links, text, Wi-Fi, and email.',run:qrTool},
 {id:'image-converter',name:'Image converter',group:'Convert',icon:'image',copy:'Switch between PNG, JPEG, and WebP.',run:()=>imageTool('convert')},
 {id:'media-converter',name:'Audio & video converter',group:'Convert',icon:'media',copy:'Convert media to MP4, WebM, MP3, WAV, or OGG.',run:()=>mediaTool('convert')},
